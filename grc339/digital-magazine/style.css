@@ -7,6 +7,10 @@ img {
     display: block;
 }
 
+body{
+    background-color: #000000;
+}
+
 div.container, div.home-container {
     margin: auto;
     position: relative;
@@ -18,13 +22,15 @@ h1 {
 }
 
 h2{
-    font-weight: bold;
-    font-family: serif;
+    font-family: "caecilia", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 h3{
-    font-weight: bold;
-    font-family: serif;
+    font-family: "caecilia", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 a {
@@ -37,8 +43,10 @@ header {
 
 nav {
     padding: 1rem 0;
-    font-family: sans-serif;
-    font-weight: bold;
+    font-family: "caecilia", sans-serif;
+font-weight: 700;
+font-style: normal;
+   
 }
 
 ul li {
@@ -56,13 +64,13 @@ section.secondary h2 {
 }
 
 section.tertiary h2 {
-    border-top: 1px solid #5c7696;
+    border-top: 1px solid #ffffff;
     padding-top: .5em;
     font-size: 1em;
 }
 
 h2, li a {
-    color: #5c7696;
+    color: #ffffff;
 }
 
 li {
@@ -70,16 +78,18 @@ li {
 }
 
 p {
-    color: #000000;
-    font-family: sans-serif;
+    color: #ffffff;
+    font-family: "rotunda-variable", sans-serif;
+    font-variation-settings: "wght" 300;
     padding-bottom: 1.8rem;
     line-height: 1.2em;
 }
 
 figcaption {
     font-style: italic;
-    font-family: sans-serif;
-    color: #888;
+    font-family: "rotunda-variable", sans-serif;
+    font-variation-settings: "wght" 300;
+    color: #ffffff;
     padding: .5rem 0 1.2rem;
 }
 
@@ -88,7 +98,7 @@ h2, p, figcaption {
 }
 
 aside {
-    background-color: #cccffc;
+    background-color: #808080;
     padding: 1rem .5rem;
 }
 
@@ -102,12 +112,12 @@ article h2 {
 }
 
 footer {
-    background-color: #5c7696;
+    background-color: #ffffff;
     box-sizing: border-box;
 }
 
 footer p {
-    color: #ffffff;
+    color: #000000;
     padding: 0.75em;
 }
 
