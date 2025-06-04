@@ -428,3 +428,50 @@ div.subscription li{
 }
 
 
+
+@media screen and (prefers-color-scheme: light) {
+
+  
+
+    .subscription-frequency, .subscription-type, .newsletter-h1, .comments, div.subscription li, figcaption, p, h2, li a {
+        color: #000000;
+    }
+
+    textarea{
+        background: #efefef;
+    }
+
+    footer {
+        background-color: #000000;
+    }
+
+    body{
+        background-color: #ffffff
+    }
+    
+    footer p {
+        color: #ffffff;
+    }
+
+    section.tertiary h2 {
+        border-top: 1px solid #000000;
+    }
+
+    div.container section.secondary p, div.container section.secondary h2{
+        color:#FFFFFF;
+    }
+
+    h1 {  
+        background-image: url("White\ and\ black\ logo\ light.svg");  
+        background-repeat: no-repeat;  
+        background-size: contain;  
+        }  
+
+        h1 img {  
+            opacity: 0;  
+            }  
+        
+    
+
+
+}
